@@ -45,3 +45,4 @@ For Developer:
    rpc
    user_application
    testing
+   mcp
