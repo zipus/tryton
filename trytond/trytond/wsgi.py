@@ -248,3 +248,4 @@ if config.has_section('wsgi middleware'):
 
 import trytond.bus  # noqa: E402,F401
 import trytond.protocols.dispatcher  # noqa: E402,F401
+import trytond.protocols.mcp  # noqa: E402,F401
