@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools>=64", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "tuion"
+version = "0.1.0"
+description = "Console-based Tryton client inspired by sao and jiratui"
+readme = "README.md"
+authors = [{ name = "Tryton Community" }]
+license = { file = "../LICENSE" }
+requires-python = ">=3.10"
+dependencies = [
+  "textual>=0.70.0",
+  "rich>=13",
+]
+
+[project.urls]
+Homepage = "https://www.tryton.org"
+
+[project.scripts]
+tuion = "tuion.cli:run"

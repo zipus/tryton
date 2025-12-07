@@ -7,6 +7,16 @@ complete and 100% Open Source.
 
 This repository contains the source for all the packages of Tryton.
 
+Tuion
+=====
+
+Alongside the desktop and web clients, the repository now includes
+``tuion``—a console-first interface inspired by the `jiratui
+project <https://github.com/whyisdifficult/jiratui>`_. The client lives in
+the :file:`tuion/` directory and can be installed in editable mode with
+``python -m pip install -e ./tuion``. Launch it using ``python -m tuion``
+to explore a terminal-driven workflow.
+
 Setup
 =====
 
